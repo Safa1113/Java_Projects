@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+<title> Course  </title>
+<script src="java script.js"></script>
+<link rel="stylesheet" href="StyleSheet.css"></link>
+</head>
+<body>
+
+
+<header>
+<img src="images/logo.png" alt="logo"></img>
+<br><br><br><hr></hr></br></br></br>
+<div>
+	<nav>
+<a href ="HomePage.html" >HomePage</a>
+
+<a href ="StudentLogin.html" >StudentLogin</a>
+<a href="aboutUs.html">AboutUs</a>
+</nav>
+</div>
+</header>
+
+
+<h1> Course </h1>
+
+<main>
+
+<form id="form2" action="_instructorLogin.php" method="post">
+<fieldset>
+<legend>Course Details </legend>
+
+<ul>
+     <li>Instructor_id: <input type="text" name="insID"  required="true"></input>. </li>
+     <li>Name: <input type="text" name="name" required="true"></input> </li>
+	 <li>Field: <input type="text" name="field" required="true"></input> </li>
+	 <li>Description: <input type="text" name="description" required="true"></input> </li>
+	 <li>Book_cover: <input type="text" name="book_cover" required="true"></input> </li>
+</ul>
+
+
+
+<input type="submit" value="Add"></input>
+<input type="submit" onclick="Reset()" value="Reset"></input>
+
+</fieldset>
+</form>
+</main>
+
+
+</body>
+</html>
